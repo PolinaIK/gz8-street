@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>GZ8 // STREET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="glitch-text" data-text="INITIALIZING_SYSTEM...">INITIALIZING_SYSTEM...</div>
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <div class="loader-status">
+                <span id="load-percent">00</span>% // [STREET_CORE_LOADED]
+            </div>
+        </div>
+    </div>
+
+    <div class="scanlines"></div>
+
+    <div class="wrapper">
+        <header class="main-header">
+            <div class="tokyo-time" id="js-tokyo-time">[TOKYO TIME: 00:00 JST]</div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item"><span>GARAGE</span><small>Catalog</small></a>
+                <a href="#" class="nav-item"><span>DROP</span><small>New Arrivals</small></a>
+                <a href="#" class="nav-item"><span>ARCHIVE</span><small>Past Collections</small></a>
+            </nav>
+            <div class="cart-status">[CART <span class="cyan">1 L</span> / 0 KM]</div>
+        </header>
+
+        <section class="hero">
+            <div class="jdm-background">
+                <img src="img/chaser-bg.jpg" alt="Chaser Base" class="chaser-base">
+                <img src="img/chaser-headlights.png" alt="Chaser Lights" class="chaser-lights">
+                <div class="video-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-top-bar">
+                    <div class="system-logs">
+                        <div class="log-entry">[LAT: 35.6895 // LONG: 139.6917]</div>
+                        <div class="log-entry">BUILD_VER: 2026.04.01</div>
+                    </div>
+                    <div class="top-indicators">
+                        <div class="indicator">SPEED: <span class="cyan">180 KM/H</span></div>
+                        <div class="indicator">REV: <span class="cyan">9003 RPM</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-center-group">
+                    <div class="gz8-logo-container">
+                        <img src="img/gz8_outline.png" alt="GZ8 Outline" class="gz8-outline">
+                        <img src="img/gz8_full.png" alt="GZ8 Full" class="gz8-full">
+                    </div>
+                    <h1 class="main-title hover-trigger">STREETWEAR MERCH //</h1>
+                </div>
+
+                <div class="hero-bottom-bar">
+                    <div class="collection-info">
+                        <h2>NOT FOR EVERYONE //</h2>
+                        <h3>COLLECTION 2026</h3>
+                    </div>
+                    <div class="coordinates">X: 1297 Y: 323</div>
+                </div>
+                
+                <div class="japanese-vertical">速度</div>
+            </div>
+        </section>
+
+        <section class="info-terminal">
+            <div class="terminal-container">
+                <div class="terminal-menu">
+                    <div class="menu-item" onmouseenter="showInfo('composition')" onmouseleave="hideInfo()">
+                        <span class="menu-dot"></span> СОСТАВ
+                    </div>
+                    <div class="menu-item" onmouseenter="showInfo('fit')" onmouseleave="hideInfo()">
+                        <span class="menu-dot"></span> КРОЙ
+                    </div>
+                    <div class="menu-item" onmouseenter="showInfo('sizing')" onmouseleave="hideInfo()">
+                        <span class="menu-dot"></span> СХЕМА РАЗМЕРОВ
+                    </div>
+                </div>
+
+                <div class="terminal-display">
+                    <img id="info-image" src="" alt="">
+                    <div class="display-grid-overlay"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            
+            <a href="product-page.html" class="product-card">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div>
+                            <div class="hover-zone"></div><div class="hover-zone"></div>
+                            <div class="hover-zone"></div><div class="hover-zone"></div>
+                            <div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4203.PNG" class="active">
+                            <img src="img/imgg/IMG_4207.PNG">
+                            <img src="img/imgg/IMG_4205.PNG">
+                            <img src="img/imgg/IMG_4209.PNG">
+                            <img src="img/imgg/IMG_4204.PNG">
+                            <img src="img/imgg/IMG_4208.PNG">
+                            <img src="img/imgg/IMG_4206.PNG">
+                            <img src="img/imgg/IMG_4210.PNG">
+                        </div>
+                    </div>
+                    <div class="photo-id">ID: 001-AUTO</div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec">
+                        <p>ГОНОЧНЫЙ СТИЛЬ И ЭСТЕТИКА В КАЖДОЙ ДЕТАЛИ //</p>
+                        <h3>[ NO SAFE SPEED ] //</h3>
+                    </div>
+                    <div class="price-action">
+                        <div class="price">7,400₽</div>
+                        <button class="buy-btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product-page.html" class="product-card active">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4211.PNG" class="active">
+                            <img src="img/imgg/IMG_4212.PNG">
+                            <img src="img/imgg/IMG_4213.PNG">
+                            <img src="img/imgg/IMG_4214.PNG">
+                            <img src="img/imgg/IMG_4215.PNG">
+                        </div>
+                    </div>
+                    <div class="photo-id">ID: 002-AUTO</div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec">
+                        <p>БАЙК - ЧАСТЬ СЕМЬИ //</p>
+                        <h3>[ THE BIKES PART OF THE FAMILY ] //</h3>
+                    </div>
+                    <div class="price-action">
+                        <div class="price">5,900₽</div>
+                        <button class="buy-btn neon-glow">ADD TO CART</button>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product-page.html" class="product-card">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4216.PNG" class="active">
+                            <img src="img/imgg/IMG_4217.PNG">
+                            <img src="img/imgg/IMG_4218.PNG">
+                            <img src="img/imgg/IMG_4219.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec"><p>СЕРДЦЕ СОБРАННОЕ ИЗ МЕТАЛЛИЧЕСКИХ ДЕТАЛЕЙ //</p><h3>[ STREET HEART ] //</h3></div>
+                    <div class="price-action"><div class="price">5,900₽</div><button class="buy-btn">ADD TO CART</button></div>
+                </div>
+            </a>
+
+            <a href="product-page.html" class="product-card">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4220.PNG" class="active">
+                            <img src="img/imgg/IMG_4225.PNG">
+                            <img src="img/imgg/IMG_4223.PNG">
+                            <img src="img/imgg/IMG_4221.PNG">
+                            <img src="img/imgg/IMG_4224.PNG">
+                            <img src="img/imgg/IMG_4222.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec"><p>ЧИСТЫЙ УЛИЧНЫЙ ВАЙБ //</p><h3>[ F*CKING GRIVING ] //</h3></div>
+                    <div class="price-action"><div class="price">5,900₽</div><button class="buy-btn">ADD TO CART</button></div>
+                </div>
+            </a>
+
+            <a href="product-page.html" class="product-card">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4226.PNG" class="active">
+                            <img src="img/imgg/IMG_4227.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec"><p>DRIFT = LOVE - не буквальная формула //</p><h3>[ DRIFT = LOVE ]</h3></div>
+                    <div class="price-action"><div class="price">5,900₽</div><button class="buy-btn">ADD TO CART</button></div>
+                </div>
+            </a>
+
+            <a href="product-page.html" class="product-card">
+                <div class="product-image">
+                    <div class="product-image-wrapper">
+                        <div class="image-hover-engine">
+                            <div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div><div class="hover-zone"></div>
+                            <img src="img/imgg/IMG_4228.PNG" class="active">
+                            <img src="img/imgg/IMG_4229.PNG">
+                            <img src="img/imgg/IMG_4232.PNG">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="tech-spec"><p>ПРЕДЧУВСТВИЕ ЛЮБВИ //</p><h3>[ KOI NO YOKAN ]</h3></div>
+                    <div class="price-action"><div class="price">5,900₽</div><button class="buy-btn">ADD TO CART</button></div>
+                </div>
+            </a>
+
+        </section>
+
+        <section class="community-section">
+    <header class="section-header">
+        <h2>COMMUNITY FEED //</h2>
+        <p>RAW_FOOTAGE_FROM_STREETS</p>
+    </header>
+    <div class="community-grid">
+        <div class="feed-item">
+            <div class="cam-ui"><span>● REC</span> <span class="cam-id">CAM_01</span></div>
+            <video src="video/1.mp4" autoplay loop muted playsinline></video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="feed-item live">
+            <div class="cam-ui"><span class="neon-text">● LIVE</span> <span class="cam-id">CAM_02</span></div>
+            <video src="video/2.mp4" autoplay loop muted playsinline></video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="feed-item">
+            <div class="cam-ui"><span>● REC</span> <span class="cam-id">CAM_03</span></div>
+            <video src="video/3.mp4" autoplay loop muted playsinline></video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="feed-item">
+            <div class="cam-ui"><span>● REC</span> <span class="cam-id">CAM_04</span></div>
+            <video src="video/4.mp4" autoplay loop muted playsinline></video>
+            <div class="video-overlay"></div>
+        </div>
+    </div>
+</section>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-circle"></div>
+    </div>
+</body>
+</html>
